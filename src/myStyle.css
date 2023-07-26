@@ -1,0 +1,51 @@
+body{
+    background-color: #a2d2ff;
+}
+
+.btnAdd {
+    background-color: #8338ec;
+    color: white;
+    text-align: center;
+}
+
+
+li {
+    list-style-type: none; 
+}
+
+/* Desktop */
+@media (min-width: 1000px){
+
+    .cardPrincipal{
+        /* margin: 0 auto; */
+        background-color: whitesmoke;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .inputText{
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        height: 30px;
+        border: 1px solid darkblue;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 1000px){
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .inputText{
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}

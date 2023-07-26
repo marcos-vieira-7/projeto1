@@ -1,0 +1,9 @@
+REACT bootstrap:
+- npm install react-bootstrap bootstrap
+
+Run json-server:
+- json-server --watch db.json
+
+Comando instalacao axios no react:
+- npm install axios
+
