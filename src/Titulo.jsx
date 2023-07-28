@@ -44,10 +44,6 @@ function Titulo({ descricao }) {
         // setMessage(response.data.nomeTarefa);
         // Limpar os dados do state e os dados dos campos do formulário
         setTasks([...tasks, response.data]);
-        
-        setDados({
-          nomTarefa: ''
-        });
       }).catch((err) => { // Acessa o catch quando a API retornar erro
         // Atribuir a mensagem no state message
         //console.log(err.response.data.mensagem);
@@ -63,7 +59,7 @@ function Titulo({ descricao }) {
   return (
     <div className="card">
       <form onSubmit={addTask}>
-        <input type="text" className="inputText" name="title" placeholder="Nome Tarefa" 
+        <input type="text" className="inputText" name="title" placeholder="Nome Tarefa"
         onChange={valueInput}/>
         <button type="submit" className="btnAdd">Adicionar</button>
       </form>

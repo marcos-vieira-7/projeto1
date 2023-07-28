@@ -13,28 +13,48 @@
       "title": "Estudar Matemática"
     },
     {
-      "title": "aprender react",
+      "title": "",
       "id": 4
     },
     {
-      "title": "Fazer Café",
+      "title": "",
       "id": 5
     },
     {
-      "title": "Pokemon Lets Go",
+      "title": "",
       "id": 6
     },
     {
-      "title": "Gasolina",
+      "title": "",
       "id": 7
     },
     {
-      "title": "Lavar Carro",
+      "title": "",
       "id": 8
     },
     {
-      "title": "Moto",
+      "title": "Comprar pão ",
       "id": 9
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Luck Tales",
+      "preco": "49.99",
+      "imagem": "src\\assets\\luck.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Links Awakening",
+      "preco": "150.99",
+      "imagem": "src\\assets\\zelda2.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Super Nintendo",
+      "preco": "499",
+      "imagem": ""
     }
   ]
 }
