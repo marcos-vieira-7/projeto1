@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 
-function Login({estaLogado}){
+function Login({onClick}){
 
     const [user, setUser] = useState('');
     const [password, setPassword] = useState('');
@@ -18,7 +18,6 @@ function Login({estaLogado}){
 
     return (
         <div className="cardPrincipal">
-            
             <form onSubmit={logarUser}>
 
             <input type="text" className="inputText" name="user" placeholder="Usuário"

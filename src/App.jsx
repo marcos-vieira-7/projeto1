@@ -1,24 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Produto from './Produto.jsx'
-import Task from './Task.jsx'
+import { useState } from 'react';
+import './App.css';
+import Produto from './Produto.jsx';
+import Task from './Task.jsx';
 import Login from './Login.jsx';
-import zelda from './assets/zelda2.jpg';
-import luck from './assets/luck.jpg';
-import ListaTask from './ListaTask.jsx';
-import { Route, Routes, Link } from "react-router-dom"
+import { Route, Routes, Link } from "react-router-dom";
 
 
 function App() {
-  const [estaLogado, setEstaLogado] = useState(false);
-  let conteudo;
+  const [estaLogado, setEstaLogado] = useState(true);
+  let Conteudo;
   
-  if(estaLogado == false){
-    conteudo = <Login />;
+  if(!estaLogado){
+    Conteudo = 
+    <div>
+      <Login />;
+    </div>
   }else {
-    conteudo = 
+    Conteudo = 
       <div>
       <nav>
       <ul>
@@ -40,9 +38,8 @@ function App() {
 
   return (
     <div>
-      <h2>Todo App2</h2>
 
-      {conteudo}
+      {Conteudo}
 
     </div>
   )
