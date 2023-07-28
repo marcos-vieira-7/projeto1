@@ -17,8 +17,15 @@ li {
 @media (min-width: 1000px){
 
     .cardPrincipal{
-        /* margin: 0 auto; */
+        /* centralizar elementos */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 auto;
+        padding-top: 20px; */
         background-color: whitesmoke;
+        width: 700px;
+        height: 500px;
     }
 
     .card {
@@ -28,7 +35,6 @@ li {
     .inputText{
         width: 400px;
         display: block;
-        margin: 0 auto;
         margin-bottom: 10px;
         height: 30px;
         border: 1px solid darkblue;

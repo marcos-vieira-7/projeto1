@@ -35,6 +35,10 @@
     {
       "title": "Comprar pão ",
       "id": 9
+    },
+    {
+      "title": "Lavar o Carro",
+      "id": 10
     }
   ],
   "produtos": [
